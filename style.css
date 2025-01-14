@@ -1,5 +1,15 @@
-aside.complement > a { 
-	display: block; 
-	padding: 10px;
-	border: 1px solid #000;
+.enfant, .frere{
+	color: red;
+}
+.parent2 .enfant2{
+	color: red;
+}
+.parent3 > .enfant3{
+	color: red;
+}
+#id{
+color: goldenrod;
+}
+.class{
+	color: green;
 }

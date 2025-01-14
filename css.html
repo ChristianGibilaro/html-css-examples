@@ -8,11 +8,39 @@
             <a href="main.html"><strong>GO TO HTML</strong></a>
 		</head>	
         <body>
-            <p> ./
-                <div class="e1"> ./1<div class="e11">./1/1</div><div class="e11">./1/2</div><div class="e11">./1/3</div></div>
-                <div class="e1"> ./2</div>
-                <div class="e1"> ./3</div>
-                <div class="e1"> ./4</div>
+            <p> 
+                <ul>
+                    <li>
+                        <div id = "id"> Pour id c'est: #id{...}</div><br>
+                    </li>
+                    <li>
+                        <div class = "class"> Pour class c'est: .class{...}</div><br>
+                    </li>
+                    <li>
+                        .enfant, .frere{} = <br>(et)<br> 
+                        <div class="parent"> parent<div class="enfant">enfant1<div class="petit-enfant">petit-enfant</div></div><div class="enfant">enfant2</div><div class="chien">chien</div></div><div class="frere">frère<div class="enfant">bel-enfant</div></div>
+                        <br>
+                    </li>
+                    <li>
+                        .parent .enfant = <br>(tout les enfant du parent direct ou indirect)<br> 
+                        <div class="parent2"> parent<div class="enfant2">enfant1<div class="petit-enfant2">petit-enfant</div></div><div class="enfant2">enfant2</div><div class="chien2">chien</div></div><div class="frere2">frère<div class="enfant2">bel-enfant</div></div>
+                        <br>
+                    </li>
+                    <li>
+                        .parent > .enfant {} = <br> (les enfants du parent direct)<br>
+                        <div class="parent3"> parent<div class="enfant3">enfant1<div class="petit-enfant3">petit-enfant</div></div><div class="enfant3">enfant2</div><div class="chien3">chien</div></div><div class="frere3">frère<div class="enfant3">bel-enfant</div></div>
+                        <br>
+                    </li>
+                </ul>
+
+                
+               
+
+                ./
+                
+                <div class="e1"> ./2<div class="e11">./2/1</div><div class="e11">./2/2</div><div class="e11">./2/3</div></div>
+                <div class="e1"> ./3<div class="e11">./3/1</div><div class="e11">./3/2</div><div class="e11">./3/3</div></div>
+                <div class="e1"> ./4<div class="e11">./4/1</div><div class="e11">./4/2</div><div class="e11">./4/3</div></div>
             </p>
         </body>
     </html>
