@@ -2,7 +2,7 @@
 	color: red;
 }
 .parent2 .enfant2{
-	color: red;
+	color: #ff0000;
 }
 .parent3 > .enfant3{
 	color: red;
